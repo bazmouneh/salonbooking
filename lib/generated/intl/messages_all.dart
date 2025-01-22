@@ -63,6 +63,7 @@ Map<String, LibraryLoader> _deferredLibraries = {
   'tr': () => new SynchronousFuture(null),
   'vi': () => new SynchronousFuture(null),
   'zh': () => new SynchronousFuture(null),
+  'fa': () => new SynchronousFuture(null),
 };
 
 MessageLookupByLibrary? _findExact(String localeName) {

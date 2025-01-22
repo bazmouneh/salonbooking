@@ -49,7 +49,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardTitle": MessageLookupByLibrary.simpleMessage("Название награды"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("Награжден"),
         "awards": MessageLookupByLibrary.simpleMessage("Награды"),
-        "bankName": MessageLookupByLibrary.simpleMessage("Название банка"),
+        "bankName": MessageLookupByLibrary.simpleMessage("Название банка - Нет банковского счета? Загрузите только логотип или фото"),
         "banned": MessageLookupByLibrary.simpleMessage("Запрещено"),
         "barberName": MessageLookupByLibrary.simpleMessage("Имя парикмахера"),
         "bookingDetails":
@@ -63,7 +63,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("Позвони сейчас"),
         "cancel": MessageLookupByLibrary.simpleMessage("Отмена"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("Отменено проверить фото"),
+            MessageLookupByLibrary.simpleMessage(" Логотип или фото салона"),
         "categoriesYouServe": MessageLookupByLibrary.simpleMessage(
             "Категории, которые вы обслуживаете"),
         "changeLanguage":

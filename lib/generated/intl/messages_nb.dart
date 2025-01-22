@@ -47,7 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardTitle": MessageLookupByLibrary.simpleMessage("Tildelingstittel"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("Tildelt av"),
         "awards": MessageLookupByLibrary.simpleMessage("Priser"),
-        "bankName": MessageLookupByLibrary.simpleMessage("Bank navn"),
+        "bankName": MessageLookupByLibrary.simpleMessage("Banknavn - Ingen bankkonto? Last opp kun logo eller bilde"),
         "banned": MessageLookupByLibrary.simpleMessage("Utestengt"),
         "barberName": MessageLookupByLibrary.simpleMessage("Barbers navn"),
         "bookingDetails":
@@ -61,7 +61,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("Ring nå"),
         "cancel": MessageLookupByLibrary.simpleMessage("Avbryt"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("Avbrutt Sjekk bilde"),
+            MessageLookupByLibrary.simpleMessage("Logo eller salongbilde"),
         "categoriesYouServe":
             MessageLookupByLibrary.simpleMessage("Kategorier du tjener"),
         "changeLanguage": MessageLookupByLibrary.simpleMessage("Skifte språk"),

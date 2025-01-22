@@ -75,12 +75,12 @@ class SignUpBloc extends Bloc<SignUpEvent, SignUpState> {
   List<XFile?> salonImages = [];
 
   ///SixthPage
-  TextEditingController bankNameController = TextEditingController();
-  TextEditingController accountNumberController = TextEditingController();
-  TextEditingController reEnterAccountNumberController =
-      TextEditingController();
-  TextEditingController holderNameController = TextEditingController();
-  TextEditingController swiftCodeController = TextEditingController();
+  TextEditingController bankNameController = TextEditingController(text: "Default Bank");
+  TextEditingController accountNumberController = TextEditingController(text: "123456789");
+  TextEditingController reEnterAccountNumberController = TextEditingController(text: "123456789");
+  TextEditingController holderNameController = TextEditingController(text: "Default Holder");
+  TextEditingController swiftCodeController = TextEditingController(text: "SWFT1234");
+
   File? cancelledCheque;
 
   SignUpBloc() : super(SignUpInitialState()) {

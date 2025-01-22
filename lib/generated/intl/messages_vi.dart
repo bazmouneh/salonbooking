@@ -49,7 +49,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Danh hiệu giải thưởng"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("Trao bằng"),
         "awards": MessageLookupByLibrary.simpleMessage("giải thưởng"),
-        "bankName": MessageLookupByLibrary.simpleMessage("Tên ngân hàng"),
+        "bankName": MessageLookupByLibrary.simpleMessage("Tên Ngân Hàng - Không có tài khoản ngân hàng? Chỉ tải lên logo hoặc ảnh"),
         "banned": MessageLookupByLibrary.simpleMessage("bị cấm"),
         "barberName": MessageLookupByLibrary.simpleMessage("Tên thợ cắt tóc"),
         "bookingDetails":
@@ -63,7 +63,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("Gọi ngay bây giờ"),
         "cancel": MessageLookupByLibrary.simpleMessage("Hủy bỏ"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("Ảnh kiểm tra đã hủy"),
+            MessageLookupByLibrary.simpleMessage("Logo hoặc ảnh của salon"),
         "categoriesYouServe":
             MessageLookupByLibrary.simpleMessage("Danh mục bạn phục vụ"),
         "changeLanguage":

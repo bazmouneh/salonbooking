@@ -47,7 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardTitle": MessageLookupByLibrary.simpleMessage("수상명"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("수여자"),
         "awards": MessageLookupByLibrary.simpleMessage("상"),
-        "bankName": MessageLookupByLibrary.simpleMessage("은행 이름"),
+        "bankName": MessageLookupByLibrary.simpleMessage("은행 이름 - 은행 계좌가 없으신가요? 로고 또는 사진만 업로드하세요"),
         "banned": MessageLookupByLibrary.simpleMessage("금지"),
         "barberName": MessageLookupByLibrary.simpleMessage("이발사 이름"),
         "bookingDetails": MessageLookupByLibrary.simpleMessage("예약 상세"),
@@ -58,7 +58,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("지금 전화하세요"),
         "cancel": MessageLookupByLibrary.simpleMessage("취소"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("취소된 수표 사진"),
+            MessageLookupByLibrary.simpleMessage("로고 또는 살롱 사진"),
         "categoriesYouServe":
             MessageLookupByLibrary.simpleMessage("귀하가 제공하는 범주"),
         "changeLanguage": MessageLookupByLibrary.simpleMessage("언어 변경"),

@@ -50,7 +50,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardTitle": MessageLookupByLibrary.simpleMessage("Bekroonde titel"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("Toegekend door"),
         "awards": MessageLookupByLibrary.simpleMessage("Onderscheidingen"),
-        "bankName": MessageLookupByLibrary.simpleMessage("Banknaam"),
+        "bankName": MessageLookupByLibrary.simpleMessage("Banknaam - Geen bankrekening? Upload alleen logo of foto"),
         "banned": MessageLookupByLibrary.simpleMessage("Verboden"),
         "barberName": MessageLookupByLibrary.simpleMessage("Naam kapper"),
         "bookingDetails":
@@ -64,7 +64,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("Bel nu"),
         "cancel": MessageLookupByLibrary.simpleMessage("Annuleren"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("Geannuleerd Controleer foto"),
+            MessageLookupByLibrary.simpleMessage("Logo of salonfoto"),
         "categoriesYouServe":
             MessageLookupByLibrary.simpleMessage("Categorieën die u bedient"),
         "changeLanguage": MessageLookupByLibrary.simpleMessage("Taal wijzigen"),

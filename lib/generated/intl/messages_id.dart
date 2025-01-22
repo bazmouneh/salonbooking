@@ -48,7 +48,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardTitle": MessageLookupByLibrary.simpleMessage("Gelar Penghargaan"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("Dihadiahi oleh"),
         "awards": MessageLookupByLibrary.simpleMessage("Penghargaan"),
-        "bankName": MessageLookupByLibrary.simpleMessage("Nama Bank"),
+        "bankName": MessageLookupByLibrary.simpleMessage("Nama Bank - Tidak punya akun bank? Unggah hanya logo atau foto"),
         "banned": MessageLookupByLibrary.simpleMessage("Dilarang"),
         "barberName": MessageLookupByLibrary.simpleMessage("Nama Tukang Cukur"),
         "bookingDetails":
@@ -62,7 +62,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("Telepon sekarang"),
         "cancel": MessageLookupByLibrary.simpleMessage("Membatalkan"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("Foto Cek Dibatalkan"),
+            MessageLookupByLibrary.simpleMessage("Logo atau foto salon"),
         "categoriesYouServe":
             MessageLookupByLibrary.simpleMessage("Kategori yang Anda Layani"),
         "changeLanguage": MessageLookupByLibrary.simpleMessage("Ganti BAHASA"),

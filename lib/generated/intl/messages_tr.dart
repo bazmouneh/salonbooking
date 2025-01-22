@@ -50,7 +50,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardedBy":
             MessageLookupByLibrary.simpleMessage("Tarafından ödüllendirildi"),
         "awards": MessageLookupByLibrary.simpleMessage("Ödüller"),
-        "bankName": MessageLookupByLibrary.simpleMessage("Banka adı"),
+        "bankName": MessageLookupByLibrary.simpleMessage("Banka Adı - Banka hesabı yok mu? Sadece logo veya fotoğraf yükleyin"),
         "banned": MessageLookupByLibrary.simpleMessage("yasaklandı"),
         "barberName": MessageLookupByLibrary.simpleMessage("Berber Adı"),
         "bookingDetails":
@@ -64,7 +64,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("Şimdi ara"),
         "cancel": MessageLookupByLibrary.simpleMessage("İptal etmek"),
         "cancelledChequePhoto": MessageLookupByLibrary.simpleMessage(
-            "Fotoğrafı Kontrol Et İptal Edildi"),
+            "Logo veya salon fotoğrafı"),
         "categoriesYouServe": MessageLookupByLibrary.simpleMessage(
             "Hizmet Verdiğiniz Kategoriler"),
         "changeLanguage": MessageLookupByLibrary.simpleMessage("Dili değiştir"),

@@ -47,7 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardTitle": MessageLookupByLibrary.simpleMessage("عنوان الجائزة"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("منحت من قبل"),
         "awards": MessageLookupByLibrary.simpleMessage("الجوائز"),
-        "bankName": MessageLookupByLibrary.simpleMessage("اسم البنك"),
+        "bankName": MessageLookupByLibrary.simpleMessage(" البنك"),
         "banned": MessageLookupByLibrary.simpleMessage("محظور"),
         "barberName": MessageLookupByLibrary.simpleMessage("اسم الحلاق"),
         "bookingDetails": MessageLookupByLibrary.simpleMessage("تفاصيل الحجز"),
@@ -58,7 +58,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("اتصل الان"),
         "cancel": MessageLookupByLibrary.simpleMessage("يلغي"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("إلغاء صورة الشيك"),
+            MessageLookupByLibrary.simpleMessage("شعار أو صورة الصالون"),
         "categoriesYouServe":
             MessageLookupByLibrary.simpleMessage("الفئات التي تخدمها"),
         "changeLanguage": MessageLookupByLibrary.simpleMessage("تغيير اللغة"),

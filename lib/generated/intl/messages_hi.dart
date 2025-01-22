@@ -50,7 +50,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardedBy":
             MessageLookupByLibrary.simpleMessage("द्वारा सम्मानित किया गया"),
         "awards": MessageLookupByLibrary.simpleMessage("पुरस्कार"),
-        "bankName": MessageLookupByLibrary.simpleMessage("बैंक का नाम"),
+        "bankName": MessageLookupByLibrary.simpleMessage("बैंक का नाम - कोई बैंक खाता नहीं? केवल लोगो या फोटो अपलोड करें"),
         "banned": MessageLookupByLibrary.simpleMessage("प्रतिबंधित"),
         "barberName": MessageLookupByLibrary.simpleMessage("नाई का नाम"),
         "bookingDetails": MessageLookupByLibrary.simpleMessage("बुकिंग विवरण"),
@@ -62,7 +62,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("अब कॉल करें"),
         "cancel": MessageLookupByLibrary.simpleMessage("रद्द करना"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("रद्द चेक फोटो"),
+            MessageLookupByLibrary.simpleMessage("लोगो या सैलून फोटो"),
         "categoriesYouServe":
             MessageLookupByLibrary.simpleMessage("श्रेणियाँ आप सेवा करते हैं"),
         "changeLanguage": MessageLookupByLibrary.simpleMessage("भाषा बदलें"),

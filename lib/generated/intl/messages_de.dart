@@ -51,7 +51,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Auszeichnungstitel"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("Verliehen"),
         "awards": MessageLookupByLibrary.simpleMessage("Auszeichnungen"),
-        "bankName": MessageLookupByLibrary.simpleMessage("Bank Name"),
+        "bankName": MessageLookupByLibrary.simpleMessage("Bankname - Kein Bankkonto? Laden Sie nur das Logo oder Foto hoch"),
         "banned": MessageLookupByLibrary.simpleMessage("Verboten"),
         "barberName": MessageLookupByLibrary.simpleMessage("Name des Friseurs"),
         "bookingDetails":
@@ -65,7 +65,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("Jetzt anrufen"),
         "cancel": MessageLookupByLibrary.simpleMessage("Stornieren"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("Storniertes Scheckfoto"),
+            MessageLookupByLibrary.simpleMessage("Logo oder Salonfoto"),
         "categoriesYouServe": MessageLookupByLibrary.simpleMessage(
             "Kategorien, die Sie bedienen"),
         "changeLanguage":

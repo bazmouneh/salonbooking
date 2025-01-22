@@ -47,7 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardTitle": MessageLookupByLibrary.simpleMessage("ชื่อรางวัล"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("มอบรางวัลโดย"),
         "awards": MessageLookupByLibrary.simpleMessage("รางวัล"),
-        "bankName": MessageLookupByLibrary.simpleMessage("ชื่อธนาคาร"),
+        "bankName": MessageLookupByLibrary.simpleMessage(" ชื่อธนาคาร - ไม่มีบัญชีธนาคาร? อัปโหลดเฉพาะโลโก้หรือรูปภาพ"),
         "banned": MessageLookupByLibrary.simpleMessage("ห้าม"),
         "barberName": MessageLookupByLibrary.simpleMessage("ชื่อช่างตัดผม"),
         "bookingDetails":
@@ -59,7 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("โทรเลย"),
         "cancel": MessageLookupByLibrary.simpleMessage("ยกเลิก"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("ยกเลิกการตรวจสอบรูปภาพ"),
+            MessageLookupByLibrary.simpleMessage("โลโก้หรือรูปภาพร้าน"),
         "categoriesYouServe":
             MessageLookupByLibrary.simpleMessage("หมวดหมู่ที่คุณให้บริการ"),
         "changeLanguage": MessageLookupByLibrary.simpleMessage("เปลี่ยนภาษา"),

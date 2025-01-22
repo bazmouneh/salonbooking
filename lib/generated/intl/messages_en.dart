@@ -47,7 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardTitle": MessageLookupByLibrary.simpleMessage("Award Title"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("Awarded By"),
         "awards": MessageLookupByLibrary.simpleMessage("Awards"),
-        "bankName": MessageLookupByLibrary.simpleMessage("Bank Name"),
+        "bankName": MessageLookupByLibrary.simpleMessage("Bank Name-NO BANK ACCOUNT? UPLOAD ONLY LOGO OR PHOTO"),
         "banned": MessageLookupByLibrary.simpleMessage("Banned"),
         "barberName": MessageLookupByLibrary.simpleMessage("Barber Name"),
         "bookingDetails":
@@ -61,7 +61,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("Call Now"),
         "cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("Cancelled Cheque Photo"),
+            MessageLookupByLibrary.simpleMessage("logo Or Salon Photo"),
         "categoriesYouServe":
             MessageLookupByLibrary.simpleMessage("Categories You Serve"),
         "changeLanguage":

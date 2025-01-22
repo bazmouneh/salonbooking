@@ -52,7 +52,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardTitle": MessageLookupByLibrary.simpleMessage("Τίτλος Βραβείου"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("Βραβευμένο από"),
         "awards": MessageLookupByLibrary.simpleMessage("Βραβεία"),
-        "bankName": MessageLookupByLibrary.simpleMessage("Ονομα τράπεζας"),
+        "bankName": MessageLookupByLibrary.simpleMessage("Όνομα Τράπεζας - Χωρίς τραπεζικό λογαριασμό; Ανεβάστε μόνο λογότυπο ή φωτογραφία"),
         "banned": MessageLookupByLibrary.simpleMessage("Απαγορευμένο"),
         "barberName": MessageLookupByLibrary.simpleMessage("Όνομα κουρέα"),
         "bookingDetails":
@@ -66,7 +66,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("Κάλεσε τώρα"),
         "cancel": MessageLookupByLibrary.simpleMessage("Ματαίωση"),
         "cancelledChequePhoto": MessageLookupByLibrary.simpleMessage(
-            "Ακυρώθηκε η φωτογραφία ελέγχου"),
+            "Λογότυπο ή φωτογραφία σαλονιού"),
         "categoriesYouServe":
             MessageLookupByLibrary.simpleMessage("Κατηγορίες που εξυπηρετείτε"),
         "changeLanguage": MessageLookupByLibrary.simpleMessage("Αλλαξε γλώσσα"),

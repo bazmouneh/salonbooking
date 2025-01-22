@@ -50,7 +50,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardTitle": MessageLookupByLibrary.simpleMessage("ჯილდოს ტიტული"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("დაჯილდოვდა"),
         "awards": MessageLookupByLibrary.simpleMessage("ჯილდოები"),
-        "bankName": MessageLookupByLibrary.simpleMessage("ბანკის სახელი"),
+        "bankName": MessageLookupByLibrary.simpleMessage("საბანკო სახელი - არ გაქვთ საბანკო ანგარიში? ატვირთეთ მხოლოდ ლოგო ან ფოტო"),
         "banned": MessageLookupByLibrary.simpleMessage("აკრძალული"),
         "barberName": MessageLookupByLibrary.simpleMessage("დალაქის სახელი"),
         "bookingDetails":
@@ -64,7 +64,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("დარეკე ახლავე"),
         "cancel": MessageLookupByLibrary.simpleMessage("გაუქმება"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("გაუქმდა შემოწმების ფოტო"),
+            MessageLookupByLibrary.simpleMessage("ლოგო ან სალონის ფოტო"),
         "categoriesYouServe": MessageLookupByLibrary.simpleMessage(
             "კატეგორიები, რომლებსაც ემსახურებით"),
         "changeLanguage": MessageLookupByLibrary.simpleMessage("ენის შეცვლა"),

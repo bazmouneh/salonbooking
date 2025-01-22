@@ -47,7 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "awardTitle": MessageLookupByLibrary.simpleMessage("受賞タイトル"),
         "awardedBy": MessageLookupByLibrary.simpleMessage("受賞者"),
         "awards": MessageLookupByLibrary.simpleMessage("受賞歴"),
-        "bankName": MessageLookupByLibrary.simpleMessage("銀行名"),
+        "bankName": MessageLookupByLibrary.simpleMessage("銀行名 - 銀行口座がありませんか？ロゴまたは写真のみアップロードしてください"),
         "banned": MessageLookupByLibrary.simpleMessage("禁止された"),
         "barberName": MessageLookupByLibrary.simpleMessage("理容師の名前"),
         "bookingDetails": MessageLookupByLibrary.simpleMessage("予約明細"),
@@ -58,7 +58,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "callNow": MessageLookupByLibrary.simpleMessage("今すぐ電話してください"),
         "cancel": MessageLookupByLibrary.simpleMessage("キャンセル"),
         "cancelledChequePhoto":
-            MessageLookupByLibrary.simpleMessage("キャンセルされたチェック写真"),
+            MessageLookupByLibrary.simpleMessage("ロゴまたはサロンの写真"),
         "categoriesYouServe":
             MessageLookupByLibrary.simpleMessage("サービスを提供するカテゴリ"),
         "changeLanguage": MessageLookupByLibrary.simpleMessage("言語を変えてください"),
