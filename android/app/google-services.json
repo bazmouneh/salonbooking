@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1076018351407",
+    "project_id": "booking-georgia",
+    "storage_bucket": "booking-georgia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076018351407:android:02bda303a5cde8914d65da",
+        "android_client_info": {
+          "package_name": "com.bookinggeorgia.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076018351407-icj8f2idgq08s9s2pnjtcenk40ko70t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bookinggeorgia.app",
+            "certificate_hash": "162a0e9e670657ede4c079f56152db4695f3e889"
+          }
+        },
+        {
+          "client_id": "1076018351407-qckm0d8r4aao2mne9bafgn5la2mva7co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsMJheYcAg6EdP2BnjXaJJ7VkYWyWccag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076018351407-qckm0d8r4aao2mne9bafgn5la2mva7co.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1076018351407-jj8g53tppv4le758cpugattm45rvpkbq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bookinggeorgia.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076018351407:android:581a1d4964231e7b4d65da",
+        "android_client_info": {
+          "package_name": "com.bookinggeorgia.app_salon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076018351407-hqgfspbqf9r8dt0e211fk0ndk26mtp8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bookinggeorgia.app_salon",
+            "certificate_hash": "162a0e9e670657ede4c079f56152db4695f3e889"
+          }
+        },
+        {
+          "client_id": "1076018351407-qckm0d8r4aao2mne9bafgn5la2mva7co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsMJheYcAg6EdP2BnjXaJJ7VkYWyWccag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076018351407-qckm0d8r4aao2mne9bafgn5la2mva7co.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1076018351407-jj8g53tppv4le758cpugattm45rvpkbq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bookinggeorgia.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
