@@ -11,11 +11,11 @@ class SelectMonthDialog extends StatefulWidget {
   final int? year;
 
   const SelectMonthDialog({
-    Key? key,
+    super.key,
     required this.onDoneClick,
     this.month,
     this.year,
-  }) : super(key: key);
+  });
 
   @override
   State<SelectMonthDialog> createState() => _SelectMonthDialogState();

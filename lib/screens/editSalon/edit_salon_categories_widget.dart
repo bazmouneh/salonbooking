@@ -12,10 +12,10 @@ class EditSalonCategoriesWidget extends StatelessWidget {
   final double? verticalPadding;
 
   const EditSalonCategoriesWidget({
-    Key? key,
+    super.key,
     this.horizontalPadding,
     this.verticalPadding,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -70,11 +70,11 @@ class GenderSelectWidget extends StatefulWidget {
   final EditSalonDetailBloc? editSalonDetailBloc;
 
   const GenderSelectWidget({
-    Key? key,
+    super.key,
     this.horizontalPadding,
     this.verticalPadding,
     this.editSalonDetailBloc,
-  }) : super(key: key);
+  });
 
   @override
   State<GenderSelectWidget> createState() => _GenderSelectWidgetState();
@@ -150,11 +150,11 @@ class CategoriesGridWidget extends StatefulWidget {
   final EditSalonDetailBloc editSalonDetailBloc;
 
   const CategoriesGridWidget({
-    Key? key,
+    super.key,
     this.horizontalPadding,
     this.verticalPadding,
     required this.editSalonDetailBloc,
-  }) : super(key: key);
+  });
 
   @override
   State<CategoriesGridWidget> createState() => _CategoriesGridWidgetState();
@@ -211,11 +211,11 @@ class ItemCategoryWidget extends StatelessWidget {
   final Function()? onTap;
 
   const ItemCategoryWidget({
-    Key? key,
+    super.key,
     required this.categoryData,
     required this.filterIsSelected,
     this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

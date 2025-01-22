@@ -8,7 +8,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:get/route_manager.dart';
 
 class ForgotPasswordBottomSheet extends StatelessWidget {
-  const ForgotPasswordBottomSheet({Key? key}) : super(key: key);
+  const ForgotPasswordBottomSheet({super.key});
 
   @override
   Widget build(BuildContext context) {

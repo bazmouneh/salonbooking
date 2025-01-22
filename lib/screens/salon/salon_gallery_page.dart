@@ -8,7 +8,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
 
 class SalonGalleryPage extends StatelessWidget {
-  const SalonGalleryPage({Key? key}) : super(key: key);
+  const SalonGalleryPage({super.key});
 
   @override
   Widget build(BuildContext context) {

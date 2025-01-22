@@ -14,7 +14,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:get/get.dart';
 
 class SalonReviewsPage extends StatelessWidget {
-  const SalonReviewsPage({Key? key}) : super(key: key);
+  const SalonReviewsPage({super.key});
 
   @override
   Widget build(BuildContext context) {

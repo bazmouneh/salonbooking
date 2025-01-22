@@ -10,7 +10,7 @@ import 'package:get/get.dart';
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 
 class SignUpSalonAddressWidget extends StatelessWidget {
-  const SignUpSalonAddressWidget({Key? key}) : super(key: key);
+  const SignUpSalonAddressWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -162,9 +162,9 @@ class AboutSalonTextField extends StatefulWidget {
   final SignUpBloc? signUpBloc;
 
   const AboutSalonTextField({
-    Key? key,
+    super.key,
     required this.signUpBloc,
-  }) : super(key: key);
+  });
 
   @override
   State<AboutSalonTextField> createState() => _AboutSalonTextFieldState();

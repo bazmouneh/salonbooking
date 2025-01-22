@@ -15,7 +15,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class MainScreen extends StatelessWidget {
-  const MainScreen({Key? key}) : super(key: key);
+  const MainScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -143,14 +143,14 @@ class BottomMenuItem extends StatelessWidget {
   final Function()? onTap;
 
   const BottomMenuItem({
-    Key? key,
+    super.key,
     required this.image,
     required this.imageSize,
     required this.title,
     required this.menuIsSelected,
     this.nonSelectedImageSize,
     this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -202,7 +202,7 @@ class BgRoundImageWidget extends StatelessWidget {
   final Function()? onTap;
 
   const BgRoundImageWidget({
-    Key? key,
+    super.key,
     required this.image,
     this.imagePadding,
     this.onTap,
@@ -210,7 +210,7 @@ class BgRoundImageWidget extends StatelessWidget {
     this.bgColor,
     this.height,
     this.width,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

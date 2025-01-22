@@ -10,7 +10,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:image_picker/image_picker.dart';
 
 class EditSalonBankWidget extends StatelessWidget {
-  EditSalonBankWidget({Key? key}) : super(key: key);
+  EditSalonBankWidget({super.key});
 
   final ImagePicker imagePicker = ImagePicker();
 

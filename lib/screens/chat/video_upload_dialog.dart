@@ -9,8 +9,7 @@ import 'package:get/get.dart';
 class VideoUploadDialog extends StatelessWidget {
   final VoidCallback selectAnother;
 
-  const VideoUploadDialog({Key? key, required this.selectAnother})
-      : super(key: key);
+  const VideoUploadDialog({super.key, required this.selectAnother});
 
   @override
   Widget build(BuildContext context) {

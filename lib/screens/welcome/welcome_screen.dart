@@ -23,7 +23,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:get/get.dart';
 
 class WelComeScreen extends StatefulWidget {
-  const WelComeScreen({Key? key}) : super(key: key);
+  const WelComeScreen({super.key});
 
   @override
   State<WelComeScreen> createState() => _WelComeScreenState();

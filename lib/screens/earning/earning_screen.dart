@@ -12,7 +12,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class EarningScreen extends StatelessWidget {
-  const EarningScreen({Key? key}) : super(key: key);
+  const EarningScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

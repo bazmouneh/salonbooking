@@ -13,9 +13,9 @@ import 'package:get/get.dart';
 
 class BookingHistoryWidget extends StatelessWidget {
   const BookingHistoryWidget({
-    Key? key,
+    super.key,
     required this.bookings,
-  }) : super(key: key);
+  });
   final List<BookingData> bookings;
 
   @override
@@ -37,9 +37,9 @@ class BookingHistoryWidget extends StatelessWidget {
 
 class ItemHistoryBooking extends StatelessWidget {
   const ItemHistoryBooking({
-    Key? key,
+    super.key,
     required this.bookingData,
-  }) : super(key: key);
+  });
   final BookingData bookingData;
 
   @override

@@ -8,7 +8,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class EditBankDetailScreen extends StatelessWidget {
-  const EditBankDetailScreen({Key? key}) : super(key: key);
+  const EditBankDetailScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

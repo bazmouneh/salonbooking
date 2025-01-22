@@ -10,11 +10,10 @@ class BottomSelectedItemBar extends StatelessWidget {
   final VoidCallback onItemDelete;
 
   const BottomSelectedItemBar(
-      {Key? key,
+      {super.key,
       required this.onBackTap,
       required this.selectedItemCount,
-      required this.onItemDelete})
-      : super(key: key);
+      required this.onItemDelete});
 
   @override
   Widget build(BuildContext context) {

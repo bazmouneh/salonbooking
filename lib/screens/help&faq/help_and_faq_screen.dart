@@ -8,7 +8,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class HelpFaqScreen extends StatelessWidget {
-  const HelpFaqScreen({Key? key}) : super(key: key);
+  const HelpFaqScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -90,9 +90,9 @@ class TabBarOfHelpFaqWidget extends StatefulWidget {
   final Function(int)? onTabChange;
 
   const TabBarOfHelpFaqWidget({
-    Key? key,
+    super.key,
     this.onTabChange,
-  }) : super(key: key);
+  });
 
   @override
   State<TabBarOfHelpFaqWidget> createState() => _TabBarOfHelpFaqWidgetState();

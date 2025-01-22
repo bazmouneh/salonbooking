@@ -17,7 +17,7 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:get/get.dart';
 
 class GalleryListWidget extends StatelessWidget {
-  const GalleryListWidget({Key? key}) : super(key: key);
+  const GalleryListWidget({super.key});
 
   @override
   Widget build(BuildContext context) {

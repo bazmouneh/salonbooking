@@ -10,7 +10,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/route_manager.dart';
 
 class GalleryScreen extends StatelessWidget {
-  const GalleryScreen({Key? key}) : super(key: key);
+  const GalleryScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

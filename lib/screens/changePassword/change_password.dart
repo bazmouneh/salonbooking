@@ -6,7 +6,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ChangePasswordBottomSheet extends StatelessWidget {
-  const ChangePasswordBottomSheet({Key? key}) : super(key: key);
+  const ChangePasswordBottomSheet({super.key});
 
   @override
   Widget build(BuildContext context) {

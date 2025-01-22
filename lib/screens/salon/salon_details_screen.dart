@@ -22,7 +22,7 @@ import 'package:get/get.dart';
 import 'package:share_plus/share_plus.dart';
 
 class SalonDetailsScreen extends StatefulWidget {
-  const SalonDetailsScreen({Key? key}) : super(key: key);
+  const SalonDetailsScreen({super.key});
 
   @override
   State<SalonDetailsScreen> createState() => _SalonDetailsScreenState();
@@ -108,9 +108,9 @@ class TabBarOfSalonDetailWidget extends StatefulWidget {
   final Function(int)? onTabChange;
 
   const TabBarOfSalonDetailWidget({
-    Key? key,
+    super.key,
     this.onTabChange,
-  }) : super(key: key);
+  });
 
   @override
   State<TabBarOfSalonDetailWidget> createState() =>
@@ -186,9 +186,9 @@ class _TabBarOfSalonDetailWidgetState extends State<TabBarOfSalonDetailWidget> {
 
 class TopBarOfSalonDetails extends StatelessWidget {
   TopBarOfSalonDetails({
-    Key? key,
+    super.key,
     required this.toolbarIsExpand,
-  }) : super(key: key);
+  });
 
   final bool toolbarIsExpand;
   final PageController pageController = PageController();

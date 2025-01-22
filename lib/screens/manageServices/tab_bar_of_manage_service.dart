@@ -10,9 +10,9 @@ class TabBarOfManageServiceWidget extends StatefulWidget {
   final Function(int)? onTabChange;
 
   const TabBarOfManageServiceWidget({
-    Key? key,
+    super.key,
     this.onTabChange,
-  }) : super(key: key);
+  });
 
   @override
   State<TabBarOfManageServiceWidget> createState() =>

@@ -9,7 +9,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:get/get.dart';
 
 class ChangeLanguageScreen extends StatefulWidget {
-  const ChangeLanguageScreen({Key? key}) : super(key: key);
+  const ChangeLanguageScreen({super.key});
 
   @override
   State<ChangeLanguageScreen> createState() => _ChangeLanguageScreenState();

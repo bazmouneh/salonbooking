@@ -11,13 +11,13 @@ class ConfirmationBottomSheet extends StatelessWidget {
   final Function()? onCloseClick;
 
   const ConfirmationBottomSheet({
-    Key? key,
+    super.key,
     required this.title,
     required this.description,
     required this.buttonText,
     this.onButtonClick,
     this.onCloseClick,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

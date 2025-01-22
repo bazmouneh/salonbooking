@@ -16,7 +16,7 @@ import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 import 'edit_salon_categories_widget.dart';
 
 class EditSalonDetailsScreen extends StatelessWidget {
-  const EditSalonDetailsScreen({Key? key}) : super(key: key);
+  const EditSalonDetailsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

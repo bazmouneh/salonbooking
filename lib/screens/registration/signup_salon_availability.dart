@@ -15,7 +15,7 @@ import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 
 class SignUpSalonAvailabilityWidget extends StatelessWidget {
-  const SignUpSalonAvailabilityWidget({Key? key}) : super(key: key);
+  const SignUpSalonAvailabilityWidget({super.key});
 
   @override
   Widget build(BuildContext context) {

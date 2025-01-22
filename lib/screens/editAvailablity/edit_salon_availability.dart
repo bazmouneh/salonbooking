@@ -15,7 +15,7 @@ import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 
 class EditSalonAvailabilityWidget extends StatelessWidget {
-  const EditSalonAvailabilityWidget({Key? key}) : super(key: key);
+  const EditSalonAvailabilityWidget({super.key});
 
   @override
   Widget build(BuildContext context) {

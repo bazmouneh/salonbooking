@@ -12,7 +12,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:get/get.dart';
 
 class RequestScreen extends StatelessWidget {
-  const RequestScreen({Key? key}) : super(key: key);
+  const RequestScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -74,8 +74,7 @@ class ItemBookingRequest extends StatelessWidget {
   final Function() onUpdate;
 
   const ItemBookingRequest(
-      {Key? key, required this.data, required this.onUpdate})
-      : super(key: key);
+      {super.key, required this.data, required this.onUpdate});
 
   @override
   Widget build(BuildContext context) {

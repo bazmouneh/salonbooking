@@ -316,14 +316,14 @@ class RoundCornerWithImageWidget extends StatelessWidget {
   final Function()? onTap;
 
   const RoundCornerWithImageWidget({
-    Key? key,
+    super.key,
     required this.image,
     this.imagePadding,
     this.cornerRadius,
     this.bgColor,
     this.imageColor,
     this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

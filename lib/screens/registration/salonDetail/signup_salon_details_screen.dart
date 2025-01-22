@@ -13,7 +13,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:image_picker/image_picker.dart';
 
 class SignUpSalonDetailsScreen extends StatelessWidget {
-  const SignUpSalonDetailsScreen({Key? key}) : super(key: key);
+  const SignUpSalonDetailsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

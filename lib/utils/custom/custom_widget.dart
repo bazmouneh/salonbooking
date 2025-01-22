@@ -11,10 +11,10 @@ class AppLogo extends StatelessWidget {
   final double? textSize;
 
   const AppLogo({
-    Key? key,
+    super.key,
     this.textColor,
     this.textSize,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -50,11 +50,11 @@ class TextWithTextFieldWidget extends StatelessWidget {
   final TextEditingController controller;
 
   const TextWithTextFieldWidget({
-    Key? key,
+    super.key,
     required this.title,
     this.isPassword,
     required this.controller,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -157,10 +157,10 @@ class OpenClosedStatusWidget extends StatelessWidget {
   final bool salonIsOpen;
 
   const OpenClosedStatusWidget({
-    Key? key,
+    super.key,
     this.bgDisable,
     required this.salonIsOpen,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -198,10 +198,10 @@ class TitleWithSeeAllWidget extends StatelessWidget {
   final Function()? onTap;
 
   const TitleWithSeeAllWidget({
-    Key? key,
+    super.key,
     required this.title,
     this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -231,8 +231,7 @@ class CustomCircularInkWell extends StatelessWidget {
   final Widget? child;
   final Function()? onTap;
 
-  const CustomCircularInkWell({Key? key, this.child, this.onTap})
-      : super(key: key);
+  const CustomCircularInkWell({super.key, this.child, this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -249,9 +248,9 @@ class ToolBarWidget extends StatelessWidget {
   final String title;
 
   const ToolBarWidget({
-    Key? key,
+    super.key,
     required this.title,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -295,8 +294,7 @@ class ToggleButton extends StatefulWidget {
   final Function(bool isActive)? onToggleChange;
   final bool? isActive;
 
-  const ToggleButton({Key? key, this.onToggleChange, this.isActive})
-      : super(key: key);
+  const ToggleButton({super.key, this.onToggleChange, this.isActive});
 
   @override
   State<ToggleButton> createState() => _ToggleButtonState();
@@ -317,7 +315,7 @@ class _ToggleButtonState extends State<ToggleButton> {
       width: 40,
       child: CupertinoSwitch(
         value: buttonIsActive,
-        activeColor: ColorRes.themeColor,
+        activeTrackColor: ColorRes.themeColor,
         onChanged: (value) {
           buttonIsActive = value;
           widget.onToggleChange?.call(buttonIsActive);
@@ -332,9 +330,9 @@ class CloseButtonWidget extends StatelessWidget {
   final Function()? onTap;
 
   const CloseButtonWidget({
-    Key? key,
+    super.key,
     this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -363,7 +361,7 @@ class CloseButtonWidget extends StatelessWidget {
 class ImageNotFound extends StatelessWidget {
   final Color? color;
 
-  const ImageNotFound({Key? key, this.color}) : super(key: key);
+  const ImageNotFound({super.key, this.color});
 
   @override
   Widget build(BuildContext context) {
@@ -443,7 +441,7 @@ class LoadingImage extends StatelessWidget {
   final Color? color;
   final double? fontSize;
 
-  const LoadingImage({Key? key, this.color, this.fontSize}) : super(key: key);
+  const LoadingImage({super.key, this.color, this.fontSize});
 
   @override
   Widget build(BuildContext context) {
@@ -467,7 +465,7 @@ class LoadingImage extends StatelessWidget {
 }
 
 class DataNotFound extends StatelessWidget {
-  const DataNotFound({Key? key}) : super(key: key);
+  const DataNotFound({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -494,7 +492,7 @@ class DataNotFound extends StatelessWidget {
 class LoadingData extends StatelessWidget {
   final Color? color;
 
-  const LoadingData({Key? key, this.color}) : super(key: key);
+  const LoadingData({super.key, this.color});
 
   @override
   Widget build(BuildContext context) {

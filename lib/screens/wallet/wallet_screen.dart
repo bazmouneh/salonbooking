@@ -15,7 +15,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:get/get.dart';
 
 class WalletScreen extends StatelessWidget {
-  const WalletScreen({Key? key}) : super(key: key);
+  const WalletScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -172,8 +172,7 @@ class WalletScreen extends StatelessWidget {
 class ItemWalletStatement extends StatelessWidget {
   final WalletStatementData walletStatementData;
 
-  const ItemWalletStatement({Key? key, required this.walletStatementData})
-      : super(key: key);
+  const ItemWalletStatement({super.key, required this.walletStatementData});
 
   @override
   Widget build(BuildContext context) {

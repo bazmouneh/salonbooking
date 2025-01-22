@@ -12,11 +12,10 @@ class ImageSendSheet extends StatelessWidget {
   final TextEditingController sendMediaController;
 
   const ImageSendSheet(
-      {Key? key,
+      {super.key,
       required this.image,
       required this.onSendMediaTap,
-      required this.sendMediaController})
-      : super(key: key);
+      required this.sendMediaController});
 
   @override
   Widget build(BuildContext context) {

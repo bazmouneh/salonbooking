@@ -23,7 +23,7 @@ import 'package:url_launcher/url_launcher.dart' as url;
 import 'package:url_launcher/url_launcher.dart';
 
 class RequestDetailsScreen extends StatefulWidget {
-  const RequestDetailsScreen({Key? key}) : super(key: key);
+  const RequestDetailsScreen({super.key});
 
   @override
   State<RequestDetailsScreen> createState() => _RequestDetailsScreenState();

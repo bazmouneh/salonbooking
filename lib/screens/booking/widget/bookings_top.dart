@@ -13,9 +13,9 @@ class BookingsTopWidget extends StatefulWidget {
   final Function(int month, int year) onDoneClick;
 
   const BookingsTopWidget({
-    Key? key,
+    super.key,
     required this.onDoneClick,
-  }) : super(key: key);
+  });
 
   @override
   State<BookingsTopWidget> createState() => _BookingsTopWidgetState();

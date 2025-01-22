@@ -20,7 +20,7 @@ import 'package:intl/intl.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 class BookingsScreen extends StatelessWidget {
-  const BookingsScreen({Key? key}) : super(key: key);
+  const BookingsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -390,7 +390,7 @@ class BookingsScreen extends StatelessWidget {
 class ItemBookings extends StatelessWidget {
   final BookingData data;
 
-  const ItemBookings(this.data, {Key? key}) : super(key: key);
+  const ItemBookings(this.data, {super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -150,11 +150,11 @@ class SignUpProgressWidget extends StatelessWidget {
   final String text;
 
   const SignUpProgressWidget({
-    Key? key,
+    super.key,
     required this.text,
     required this.selectIndicator,
     required this.selectBarrier,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

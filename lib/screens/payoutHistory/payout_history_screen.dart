@@ -9,7 +9,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class PayoutHistoryScreen extends StatelessWidget {
-  const PayoutHistoryScreen({Key? key}) : super(key: key);
+  const PayoutHistoryScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

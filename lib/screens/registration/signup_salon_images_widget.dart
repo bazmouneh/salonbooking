@@ -11,7 +11,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class SignUpSalonImagesWidget extends StatelessWidget {
-  const SignUpSalonImagesWidget({Key? key}) : super(key: key);
+  const SignUpSalonImagesWidget({super.key});
 
   @override
   Widget build(BuildContext context) {

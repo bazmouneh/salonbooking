@@ -14,7 +14,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:get/get.dart';
 
 class BanSalonInfoScreen extends StatefulWidget {
-  const BanSalonInfoScreen({Key? key}) : super(key: key);
+  const BanSalonInfoScreen({super.key});
 
   @override
   State<BanSalonInfoScreen> createState() => _BanSalonInfoScreenState();

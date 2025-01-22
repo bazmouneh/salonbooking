@@ -8,7 +8,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:get/get.dart';
 
 class ServiceDetailScreen extends StatefulWidget {
-  const ServiceDetailScreen({Key? key}) : super(key: key);
+  const ServiceDetailScreen({super.key});
 
   @override
   State<ServiceDetailScreen> createState() => _ServiceDetailScreenState();
@@ -224,9 +224,9 @@ class _ServiceDetailScreenState extends State<ServiceDetailScreen> {
 
 class TopBarOfServiceDetails extends StatelessWidget {
   const TopBarOfServiceDetails({
-    Key? key,
+    super.key,
     required this.toolbarIsExpand,
-  }) : super(key: key);
+  });
 
   final bool toolbarIsExpand;
 

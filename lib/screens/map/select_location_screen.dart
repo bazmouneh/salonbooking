@@ -10,7 +10,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
 
 class SelectLocationScreen extends StatefulWidget {
-  const SelectLocationScreen({Key? key}) : super(key: key);
+  const SelectLocationScreen({super.key});
 
   @override
   State<SelectLocationScreen> createState() => _SelectLocationScreenState();

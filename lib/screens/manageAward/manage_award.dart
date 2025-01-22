@@ -13,7 +13,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:get/get.dart';
 
 class ManageAwardScreen extends StatelessWidget {
-  const ManageAwardScreen({Key? key}) : super(key: key);
+  const ManageAwardScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

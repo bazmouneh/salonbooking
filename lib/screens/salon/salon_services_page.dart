@@ -12,7 +12,7 @@ import '../../model/user/salon.dart';
 import '../main/main_screen.dart';
 
 class SalonServicesPage extends StatelessWidget {
-  const SalonServicesPage({Key? key}) : super(key: key);
+  const SalonServicesPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -39,9 +39,9 @@ class ItemSalonDetailsService extends StatelessWidget {
   final Categories? categories;
 
   const ItemSalonDetailsService({
-    Key? key,
+    super.key,
     required this.categories,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -86,9 +86,9 @@ class PlusMinusImageWidget extends StatefulWidget {
   final Function(bool isAdded)? onTapChange;
 
   const PlusMinusImageWidget({
-    Key? key,
+    super.key,
     this.onTapChange,
-  }) : super(key: key);
+  });
 
   @override
   State<PlusMinusImageWidget> createState() => _PlusMinusImageWidgetState();

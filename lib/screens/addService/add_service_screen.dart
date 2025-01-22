@@ -15,7 +15,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class AddServiceScreen extends StatelessWidget {
-  const AddServiceScreen({Key? key}) : super(key: key);
+  const AddServiceScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -421,8 +421,8 @@ class AddServiceScreen extends StatelessWidget {
 
 class SelectCategoryWidget extends StatefulWidget {
   const SelectCategoryWidget({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   State<SelectCategoryWidget> createState() => _SelectCategoryWidgetState();
@@ -526,11 +526,11 @@ class AddServiceGenderWidget extends StatefulWidget {
   final AddServiceBloc? signUpBloc;
 
   const AddServiceGenderWidget({
-    Key? key,
+    super.key,
     this.horizontalPadding,
     this.verticalPadding,
     this.signUpBloc,
-  }) : super(key: key);
+  });
 
   @override
   State<AddServiceGenderWidget> createState() => _AddServiceGenderWidgetState();

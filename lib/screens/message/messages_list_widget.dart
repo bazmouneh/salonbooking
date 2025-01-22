@@ -12,7 +12,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
 
 class MessagesListWidget extends StatelessWidget {
-  const MessagesListWidget({Key? key}) : super(key: key);
+  const MessagesListWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -44,9 +44,9 @@ class MessagesListWidget extends StatelessWidget {
 
 class ItemMessagesUsers extends StatelessWidget {
   const ItemMessagesUsers({
-    Key? key,
+    super.key,
     required this.conversation,
-  }) : super(key: key);
+  });
   final Conversation conversation;
 
   @override

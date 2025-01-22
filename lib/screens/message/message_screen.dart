@@ -9,7 +9,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 class MessageScreen extends StatelessWidget {
   final Function()? onMenuClick;
 
-  const MessageScreen({Key? key, this.onMenuClick}) : super(key: key);
+  const MessageScreen({super.key, this.onMenuClick});
 
   @override
   Widget build(BuildContext context) {

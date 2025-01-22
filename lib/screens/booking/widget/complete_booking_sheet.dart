@@ -126,7 +126,7 @@ class CompleteBookingSheet extends StatelessWidget {
               child: Container(
                 width: double.infinity,
                 height: 55,
-                margin: EdgeInsets.only(bottom: 20),
+                margin: const EdgeInsets.only(bottom: 20),
                 child: TextButton(
                   onPressed: () async {
                     if (textEditingController.text.isEmpty) {

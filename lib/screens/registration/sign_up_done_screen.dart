@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class SignUpDoneScreen extends StatefulWidget {
-  const SignUpDoneScreen({Key? key}) : super(key: key);
+  const SignUpDoneScreen({super.key});
 
   @override
   State<SignUpDoneScreen> createState() => _SignUpDoneScreenState();

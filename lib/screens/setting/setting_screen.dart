@@ -28,7 +28,7 @@ import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SettingScreen extends StatefulWidget {
-  const SettingScreen({Key? key}) : super(key: key);
+  const SettingScreen({super.key});
 
   @override
   State<SettingScreen> createState() => _SettingScreenState();
@@ -343,12 +343,12 @@ class ItemSettingToggleWidget extends StatefulWidget {
   final Function(bool isActive)? onToggleChange;
 
   const ItemSettingToggleWidget({
-    Key? key,
+    super.key,
     required this.title,
     required this.subTitle,
     required this.isActive,
     this.onToggleChange,
-  }) : super(key: key);
+  });
 
   @override
   State<ItemSettingToggleWidget> createState() =>
@@ -397,7 +397,7 @@ class _ItemSettingToggleWidgetState extends State<ItemSettingToggleWidget> {
             width: 40,
             child: CupertinoSwitch(
               value: buttonIsActive ?? widget.isActive,
-              activeColor: ColorRes.themeColor,
+              activeTrackColor: ColorRes.themeColor,
               onChanged: (value) {
                 buttonIsActive = value;
                 widget.onToggleChange?.call(buttonIsActive ?? widget.isActive);
@@ -418,12 +418,12 @@ class ItemSettingWidget extends StatelessWidget {
   final Function()? onTap;
 
   const ItemSettingWidget({
-    Key? key,
+    super.key,
     required this.title,
     this.bgColor,
     this.fontColor,
     this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

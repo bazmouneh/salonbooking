@@ -8,7 +8,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class EditAvailabilityScreen extends StatelessWidget {
-  const EditAvailabilityScreen({Key? key}) : super(key: key);
+  const EditAvailabilityScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
